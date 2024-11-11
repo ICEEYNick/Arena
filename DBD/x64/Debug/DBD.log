@@ -1,0 +1,165 @@
+﻿  driver.cpp
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\driver.hpp(148,43): error C7525: inline variables require at least '/std:c++17'
+  (compiling source file 'driver.cpp')
+  
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\driver.hpp(149,26): error C7525: inline variables require at least '/std:c++17'
+  (compiling source file 'driver.cpp')
+  
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\driver.hpp(150,34): error C7525: inline variables require at least '/std:c++17'
+  (compiling source file 'driver.cpp')
+  
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\driver.hpp(150,34): error C2864: 'driver::shared_data': a static data member with an in-class initializer must have non-volatile const integral type or be specified as 'inline'
+  (compiling source file 'driver.cpp')
+      C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\driver.hpp(150,48):
+      type is 'driver::shared_data_t *'
+  
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\driver.hpp(151,33): error C7525: inline variables require at least '/std:c++17'
+  (compiling source file 'driver.cpp')
+  
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\driver.hpp(151,33): error C2864: 'driver::pid': a static data member with an in-class initializer must have non-volatile const integral type or be specified as 'inline'
+  (compiling source file 'driver.cpp')
+      C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\driver.hpp(151,36):
+      type is 'uint32_t'
+  
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\driver.hpp(152,33): error C7525: inline variables require at least '/std:c++17'
+  (compiling source file 'driver.cpp')
+  
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\driver.hpp(152,33): error C2864: 'driver::game_pid': a static data member with an in-class initializer must have non-volatile const integral type or be specified as 'inline'
+  (compiling source file 'driver.cpp')
+      C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\driver.hpp(152,41):
+      type is 'uint32_t'
+  
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\driver.hpp(153,30): error C7525: inline variables require at least '/std:c++17'
+  (compiling source file 'driver.cpp')
+  
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\driver.hpp(72,30): warning C4244: 'argument': conversion from 'char16_t' to 'const _Elem', possible loss of data
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\driver.hpp(72,30): warning C4244:         with
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\driver.hpp(72,30): warning C4244:         [
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\driver.hpp(72,30): warning C4244:             _Elem=char
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\driver.hpp(72,30): warning C4244:         ]
+  (compiling source file 'driver.cpp')
+  
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\driver.cpp(43,24): warning C4312: 'type cast': conversion from 'const uint32_t' to 'void *' of greater size
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\driver.cpp(55,24): warning C4312: 'type cast': conversion from 'uint32_t' to 'void *' of greater size
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\driver.cpp(67,24): warning C4312: 'type cast': conversion from 'uint32_t' to 'void *' of greater size
+  imgui.cpp
+  imgui_custom.cpp
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\imgui\imgui_tricks.hpp(44,22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'imgui/imgui_custom.cpp')
+  
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\imgui\imgui_tricks.hpp(83,33): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+  (compiling source file 'imgui/imgui_custom.cpp')
+  
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\imgui\imgui_tricks.hpp(83,33): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'imgui/imgui_custom.cpp')
+  
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\imgui\imgui_tricks.hpp(83,49): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+  (compiling source file 'imgui/imgui_custom.cpp')
+  
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\imgui\imgui_tricks.hpp(83,49): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'imgui/imgui_custom.cpp')
+  
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\imgui\imgui_tricks.hpp(83,66): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+  (compiling source file 'imgui/imgui_custom.cpp')
+  
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\imgui\imgui_tricks.hpp(83,66): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'imgui/imgui_custom.cpp')
+  
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\imgui\imgui_tricks.hpp(83,82): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+  (compiling source file 'imgui/imgui_custom.cpp')
+  
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\imgui\imgui_tricks.hpp(83,82): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'imgui/imgui_custom.cpp')
+  
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx9.cpp
+  imgui_impl_win32.cpp
+  imgui_tricks.cpp
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\imgui\imgui_tricks.hpp(44,22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'imgui/imgui_tricks.cpp')
+  
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\imgui\imgui_tricks.hpp(83,33): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+  (compiling source file 'imgui/imgui_tricks.cpp')
+  
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\imgui\imgui_tricks.hpp(83,33): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'imgui/imgui_tricks.cpp')
+  
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\imgui\imgui_tricks.hpp(83,49): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+  (compiling source file 'imgui/imgui_tricks.cpp')
+  
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\imgui\imgui_tricks.hpp(83,49): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'imgui/imgui_tricks.cpp')
+  
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\imgui\imgui_tricks.hpp(83,66): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+  (compiling source file 'imgui/imgui_tricks.cpp')
+  
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\imgui\imgui_tricks.hpp(83,66): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'imgui/imgui_tricks.cpp')
+  
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\imgui\imgui_tricks.hpp(83,82): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+  (compiling source file 'imgui/imgui_tricks.cpp')
+  
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\imgui\imgui_tricks.hpp(83,82): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'imgui/imgui_tricks.cpp')
+  
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\imgui\imgui_tricks.cpp(25,23): warning C4244: '+=': conversion from 'const float' to '_Ty2', possible loss of data
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\imgui\imgui_tricks.cpp(25,23): warning C4244:         with
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\imgui\imgui_tricks.cpp(25,23): warning C4244:         [
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\imgui\imgui_tricks.cpp(25,23): warning C4244:             _Ty2=int
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\imgui\imgui_tricks.cpp(25,23): warning C4244:         ]
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\imgui\imgui_tricks.cpp(29,23): warning C4244: '-=': conversion from 'const float' to '_Ty2', possible loss of data
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\imgui\imgui_tricks.cpp(29,23): warning C4244:         with
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\imgui\imgui_tricks.cpp(29,23): warning C4244:         [
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\imgui\imgui_tricks.cpp(29,23): warning C4244:             _Ty2=int
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\imgui\imgui_tricks.cpp(29,23): warning C4244:         ]
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\imgui\imgui_tricks.cpp(32,25): error C2039: 'clamp': is not a member of 'std'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(258,1):
+      see declaration of 'std'
+  
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\imgui\imgui_tricks.cpp(32,25): error C3861: 'clamp': identifier not found
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\imgui\imgui_tricks.cpp(58,25): error C2039: 'clamp': is not a member of 'std'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(258,1):
+      see declaration of 'std'
+  
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\imgui\imgui_tricks.cpp(58,25): error C3861: 'clamp': identifier not found
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\imgui\imgui_tricks.cpp(90,27): error C2039: 'clamp': is not a member of 'std'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(258,1):
+      see declaration of 'std'
+  
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\imgui\imgui_tricks.cpp(90,27): error C3861: 'clamp': identifier not found
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\imgui\imgui_tricks.cpp(91,27): error C2039: 'clamp': is not a member of 'std'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(258,1):
+      see declaration of 'std'
+  
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\imgui\imgui_tricks.cpp(91,27): error C3861: 'clamp': identifier not found
+  imgui_widgets.cpp
+  main.cpp
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\main.h(15,10): error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  (compiling source file 'main.cpp')
+  
+  intel_driver.cpp
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\Mapper\intel_driver.hpp(157,3): warning C4984: 'if constexpr' is a C++17 language extension
+  (compiling source file 'Mapper/intel_driver.cpp')
+  
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\Mapper\intel_driver.hpp(208,3): warning C4984: 'if constexpr' is a C++17 language extension
+  (compiling source file 'Mapper/intel_driver.cpp')
+  
+  kdmapper.cpp
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\Mapper\intel_driver.hpp(157,3): warning C4984: 'if constexpr' is a C++17 language extension
+  (compiling source file 'Mapper/kdmapper.cpp')
+  
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\Mapper\intel_driver.hpp(208,3): warning C4984: 'if constexpr' is a C++17 language extension
+  (compiling source file 'Mapper/kdmapper.cpp')
+  
+  portable_executable.cpp
+  service.cpp
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\Mapper\intel_driver.hpp(157,3): warning C4984: 'if constexpr' is a C++17 language extension
+  (compiling source file 'Mapper/service.cpp')
+  
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\Mapper\intel_driver.hpp(208,3): warning C4984: 'if constexpr' is a C++17 language extension
+  (compiling source file 'Mapper/service.cpp')
+  
+  utils.cpp
+  Generating Code...
+C:\Users\fresh\OneDrive\Desktop\ARENA_SRC\Arena\Mapper\intel_driver.cpp(395,1): warning C4715: 'intel_driver::WriteToReadOnlyMemory': not all control paths return a value
